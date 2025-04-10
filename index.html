@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Globe</title>
+</head>
+<body>
+
+  <div class="main"> 
+    <h1 id="line">Music Globe</h1>
+
+    <input class="searchbar" id="searchbar1" type="text" placeholder="Your best song.">
+    <input class="searchbar" id="searchbar2" type="text" placeholder="Your best artist.">
+    <button id="buttonsearch" onclick="songFinder()">
+      <img id="searchimg" src="https://www.svgrepo.com/show/532555/search.svg" alt="">
+    </button>
+  </div>
+
+  <div class="results">
+    <div>
+      <img id="albumCover" src="https://i.pinimg.com/originals/a6/27/66/a62766d407d8e7aae9d20d8204cb6b07.gif" alt="">
+    </div>
+
+    <div class="songInfo">
+    <h1 id="songName">
+      Your Music
+    </h1>
+
+    <p id="album">
+      is waiting...
+    </p>
+
+    <p id="artist">
+    </p>
+
+    <p id="length">
+    </p>
+    </div>
+
+    
+  </div>
+
+<script src="/main.js"></script>
+</body>
+</html>
